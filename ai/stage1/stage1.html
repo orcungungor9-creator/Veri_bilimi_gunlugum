@@ -10,11 +10,11 @@
 
     <style>
         /* Tematik Kalın Kart Çerçeveleri */
-        .guide-card, .intro-card, .stage-card {
+        .guide-card, .intro-card, .stage-card, .glass {
             border: 3px solid var(--neon-blue) !important;
             transition: border-color 0.4s ease, box-shadow 0.4s ease !important;
         }
-        .guide-card:hover, .intro-card:hover, .stage-card:hover {
+        .guide-card:hover, .intro-card:hover, .stage-card:hover, .glass:hover {
             box-shadow: 0 0 20px var(--neon-blue-glow) !important;
         }
     </style>
@@ -195,10 +195,10 @@
                                 <p style="color: var(--text-main); font-weight: 500; font-size: 0.9rem; margin-bottom: 24px;">Veriden öğrenerek kendini geliştiren istatistiksel algoritmalar.</p>
                                 
                                 <!-- DL -->
-                                <div class="nested-box" style="background: rgba(244, 114, 182, 0.05); border: 2px solid var(--neon-pink); border-radius: 12px; padding: 24px;">
+                                <div class="nested-box" style="background: rgba(244, 114, 182, 0.05); border: 2px solid #ec4899; border-radius: 12px; padding: 24px;">
                                     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
-                                        <div style="color: var(--neon-pink); font-weight: 800; font-size: 1.1rem;">3. Derin Öğrenme (DL)</div>
-                                        <div style="color: var(--neon-pink); font-size: 1.5rem;">🧠</div>
+                                        <div style="color: #ec4899; font-weight: 800; font-size: 1.1rem;">3. Derin Öğrenme (DL)</div>
+                                        <div style="color: #ec4899; font-size: 1.5rem;">🧠</div>
                                     </div>
                                     <p style="color: var(--text-main); font-weight: 500; font-size: 0.9rem; margin-bottom: 24px;">İnsan beyninden ilham alan çok katmanlı yapay sinir ağları.</p>
                                     
@@ -244,7 +244,7 @@
                         <div class="stage-card" style="background: var(--bg-card); border: 1px solid var(--glass-border); border-radius: 16px; padding: 20px; display: flex; gap: 16px; align-items: center; box-shadow: var(--shadow-card); transition: transform 0.3s ease;">
                             <div class="stage-icon" style="font-size: 2rem; background: rgba(244, 114, 182, 0.1); width: 60px; height: 60px; min-width: 60px; border-radius: 12px; display: flex; justify-content: center; align-items: center; border: 1px solid rgba(244, 114, 182, 0.3);">⚖️</div>
                             <div>
-                                <h4 style="color: var(--neon-pink); margin: 0 0 6px 0; font-size: 1.1rem;">3. Test ve İnce Ayar (Fine-Tuning)</h4>
+                                <h4 style="color: #ec4899; margin: 0 0 6px 0; font-size: 1.1rem;">3. Test ve İnce Ayar (Fine-Tuning)</h4>
                                 <p style="color: var(--text-main); font-weight: 500; font-size: 0.95rem; margin: 0; line-height: 1.5;">Eğitilen model, hiç görmediği verilerle test edilir. Hataları düzeltilir ve insan geri bildirimleriyle ince ayarlamalar yapılır.</p>
                             </div>
                         </div>
@@ -313,10 +313,10 @@
                 <!-- Kural 4 -->
                 <div class="stage-card" style="background: var(--bg-card); border: 1px solid var(--glass-border); border-radius: 16px; padding: 24px; box-shadow: var(--shadow-card); transition: transform 0.3s ease; display: flex; flex-direction: column;">
                     <div style="font-size: 2rem; margin-bottom: 16px;">🔒</div>
-                    <h3 style="color: var(--neon-pink); font-size: 1.2rem; margin-top: 0; margin-bottom: 12px;">4. Veri Gizliliği</h3>
+                    <h3 style="color: #ec4899; font-size: 1.2rem; margin-top: 0; margin-bottom: 12px;">4. Veri Gizliliği</h3>
                     <p style="color: var(--text-main); font-size: 0.95rem; line-height: 1.5; margin: 0; flex-grow: 1;">Şirketinizin hassas verilerini, API anahtarlarını, müşteri şifrelerini veya ticari sırlarını asla yapay zeka araçlarına yapıştırmayın.</p>
-                    <div style="margin-top: 16px; padding: 12px; background: rgba(244, 114, 182, 0.05); border-left: 3px solid var(--neon-pink); border-radius: 0 8px 8px 0;">
-                        <strong style="color: var(--neon-pink); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Çünkü</strong>
+                    <div style="margin-top: 16px; padding: 12px; background: rgba(244, 114, 182, 0.05); border-left: 3px solid #ec4899; border-radius: 0 8px 8px 0;">
+                        <strong style="color: #ec4899; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Çünkü</strong>
                         <span style="color: var(--text-main); opacity: 0.8; font-size: 0.85rem; line-height: 1.4; display: block; margin-top: 4px;">Halka açık modeller bu verileri gelecekteki eğitimlerinde kullanabilir ve başka kullanıcıların sorgularında sızdırabilir.</span>
                     </div>
                 </div>
@@ -354,7 +354,7 @@
             </div>
             
             <p style="color: var(--text-main); font-size: 1.15rem; line-height: 1.8; margin-bottom: 32px;">
-                İyi bir prompt yazmak, yapay zekaya "ne istediğinizi" değil, <strong>"nasıl düşünmesi gerektiğini"</strong> söylemektir. Başarılı bir istemin temel formülü şudur: <strong style="color: var(--neon-pink);">Rol + Bağlam + Görev + Format</strong>.
+                İyi bir prompt yazmak, yapay zekaya "ne istediğinizi" değil, <strong>"nasıl düşünmesi gerektiğini"</strong> söylemektir. Başarılı bir istemin temel formülü şudur: <strong style="color: #ec4899;">Rol + Bağlam + Görev + Format</strong>.
             </p>
 
             <!-- Kötü vs İyi İstem Karşılaştırması -->
@@ -377,7 +377,7 @@
                     <div style="background: rgba(52, 211, 153, 0.05); padding: 16px; border-radius: 8px; margin-top: 16px; font-family: monospace; color: var(--text-main); font-size: 1rem; border: 1px dashed rgba(52, 211, 153, 0.3); line-height: 1.6;">
                         <span style="color: var(--neon-blue); font-weight:bold;">[Rol]</span> Sen kıdemli bir finansal veri analistisin.<br>
                         <span style="color: var(--neon-purple); font-weight:bold;">[Bağlam]</span> Yönetim kurulu için Q3 strateji sunumu hazırlıyorum.<br>
-                        <span style="color: var(--neon-pink); font-weight:bold;">[Görev]</span> 2024 dijital bankacılık trendlerini analiz et.<br>
+                        <span style="color: #ec4899; font-weight:bold;">[Görev]</span> 2024 dijital bankacılık trendlerini analiz et.<br>
                         <span style="color: var(--neon-orange); font-weight:bold;">[Format]</span> Çıktıyı 3 maddelik liste ve yönetici özeti olarak ver.
                     </div>
                     <div style="margin-top: 16px; color: var(--text-muted); font-size: 0.9rem; line-height: 1.5;">
