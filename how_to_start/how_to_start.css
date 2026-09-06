@@ -735,6 +735,7 @@ html {
     margin-bottom: 16px;
 }
 
+.project-card-header svg,
 .project-card-header i {
     width: 28px;
     height: 28px;
@@ -744,7 +745,7 @@ html {
 .project-card-header h4 {
     font-size: 1.15rem;
     font-weight: 700;
-    color: var(--text-main);
+    color: var(--project-color);
     margin: 0;
 }
 
@@ -754,6 +755,10 @@ html {
     color: #111111;
     margin: 0;
     padding-left: 0 !important;
+}
+
+.project-card p strong {
+    color: var(--project-color);
 }
 
 .project-card p::before {
