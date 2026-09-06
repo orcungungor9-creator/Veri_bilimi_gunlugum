@@ -765,6 +765,53 @@ html {
     display: none;
 }
 
+/* --- ADIM KARTLARI --- */
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.step-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 32px 24px 24px 24px;
+    border: 2px solid var(--neon-purple, #a855f7);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.step-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+}
+
+.step-card p::before {
+    display: none;
+}
+
+.step-number {
+    position: absolute;
+    top: -16px;
+    left: 24px;
+    background: var(--neon-purple, #a855f7);
+    color: white;
+    width: auto;
+    padding: 0 16px;
+    height: 32px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.95rem;
+    box-shadow: 0 4px 8px rgba(168, 85, 247, 0.4);
+}
+
 /* Mobil Uyumluluk */
 @media (max-width: 768px) {
     .ecosystem-section,
