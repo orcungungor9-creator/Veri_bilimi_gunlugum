@@ -1369,7 +1369,6 @@ body.theme-mono-dark .btn-hero {
 .tool-svg {
     width: 100%;
     height: 100%;
-    filter: var(--tool-svg-filter);
     transition: all 0.3s ease;
 }
 
@@ -1379,21 +1378,23 @@ body.theme-mono-dark .btn-hero {
     transform: scale(1.1);
 }
 
-.tool-card-new:hover .tool-svg { filter: var(--tool-svg-filter-hover); }
-
-/* Kartlara özel logo renkleri */
-.tool-card-new[data-tool="r"]:hover .tool-logo-box { background: rgba(39, 109, 195, 0.2); border-color: #276DC3; }
-.tool-card-new[data-tool="python"]:hover .tool-logo-box { background: rgba(255, 212, 59, 0.2); border-color: #FFD43B; }
-.tool-card-new[data-tool="sql"]:hover .tool-logo-box { background: rgba(51, 103, 145, 0.2); border-color: #336791; }
-.tool-card-new[data-tool="excel"]:hover .tool-logo-box { background: rgba(33, 115, 70, 0.2); border-color: #217346; }
-.tool-card-new[data-tool="powerbi"]:hover .tool-logo-box { background: rgba(242, 200, 17, 0.2); border-color: #F2C811; }
-.tool-card-new[data-tool="tableau"]:hover .tool-logo-box { background: rgba(233, 118, 39, 0.2); border-color: #E97627; }
-.tool-card-new[data-tool="spss"]:hover .tool-logo-box { background: rgba(31, 112, 193, 0.2); border-color: #1F70C1; }
-.tool-card-new[data-tool="stata"]:hover .tool-logo-box { background: rgba(63, 79, 117, 0.2); border-color: #3F4F75; }
-.tool-card-new[data-tool="eviews"]:hover .tool-logo-box { background: rgba(227, 116, 0, 0.2); border-color: #E37400; }
-.tool-card-new[data-tool="gretl"]:hover .tool-logo-box { background: rgba(164, 46, 43, 0.2); border-color: #A42E2B; }
-.tool-card-new[data-tool="sas"]:hover .tool-logo-box { background: rgba(0, 76, 144, 0.2); border-color: #004C90; }
-.tool-card-new[data-tool="julia"]:hover .tool-logo-box { background: rgba(149, 88, 178, 0.2); border-color: #9558B2; }
+/* Kartlara özel logo renkleri (Her zaman aktif) */
+.tool-card-new[data-tool="r"] .tool-logo-box { background: rgba(39, 109, 195, 0.2); border-color: rgba(39, 109, 195, 0.5); }
+.tool-card-new[data-tool="python"] .tool-logo-box { background: rgba(255, 212, 59, 0.2); border-color: rgba(255, 212, 59, 0.5); }
+.tool-card-new[data-tool="sql"] .tool-logo-box { background: rgba(51, 103, 145, 0.2); border-color: rgba(51, 103, 145, 0.5); }
+.tool-card-new[data-tool="excel"] .tool-logo-box { background: rgba(33, 115, 70, 0.2); border-color: rgba(33, 115, 70, 0.5); }
+.tool-card-new[data-tool="powerbi"] .tool-logo-box { background: rgba(242, 200, 17, 0.2); border-color: rgba(242, 200, 17, 0.5); }
+.tool-card-new[data-tool="tableau"] .tool-logo-box { background: rgba(233, 118, 39, 0.2); border-color: rgba(233, 118, 39, 0.5); }
+.tool-card-new[data-tool="spss"] .tool-logo-box { background: rgba(31, 112, 193, 0.2); border-color: rgba(31, 112, 193, 0.5); }
+.tool-card-new[data-tool="stata"] .tool-logo-box { background: rgba(63, 79, 117, 0.2); border-color: rgba(63, 79, 117, 0.5); }
+.tool-card-new[data-tool="eviews"] .tool-logo-box { background: rgba(227, 116, 0, 0.2); border-color: rgba(227, 116, 0, 0.5); }
+.tool-card-new[data-tool="gretl"] .tool-logo-box { background: rgba(164, 46, 43, 0.2); border-color: rgba(164, 46, 43, 0.5); }
+.tool-card-new[data-tool="sas"] .tool-logo-box { background: rgba(0, 76, 144, 0.2); border-color: rgba(0, 76, 144, 0.5); }
+.tool-card-new[data-tool="julia"] .tool-logo-box { background: rgba(149, 88, 178, 0.2); border-color: rgba(149, 88, 178, 0.5); }
+.tool-card-new[data-tool="hadoop"] .tool-logo-box { background: rgba(255, 204, 0, 0.2); border-color: rgba(255, 204, 0, 0.5); }
+.tool-card-new[data-tool="pyspark"] .tool-logo-box { background: rgba(226, 90, 28, 0.2); border-color: rgba(226, 90, 28, 0.5); }
+.tool-card-new[data-tool="matlab"] .tool-logo-box { background: rgba(0, 118, 168, 0.2); border-color: rgba(0, 118, 168, 0.5); }
+.tool-card-new[data-tool="git"] .tool-logo-box { background: rgba(241, 80, 47, 0.2); border-color: rgba(241, 80, 47, 0.5); }
 
 .tool-tag {
     padding: 4px 12px;
