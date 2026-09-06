@@ -731,14 +731,14 @@ html {
 .project-card-header {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 20px;
     margin-bottom: 16px;
 }
 
 .project-card-header svg,
 .project-card-header i {
-    width: 28px;
-    height: 28px;
+    width: 42px;
+    height: 42px;
     color: var(--project-color);
 }
 
