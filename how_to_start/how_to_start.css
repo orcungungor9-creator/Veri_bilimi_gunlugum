@@ -812,6 +812,29 @@ html {
     box-shadow: 0 4px 8px rgba(168, 85, 247, 0.4);
 }
 
+.guide-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 24px;
+    background: #ffffff;
+    color: var(--neon-purple, #a855f7);
+    border: 2px solid var(--neon-purple, #a855f7);
+    border-radius: 100px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.guide-btn:hover {
+    background: var(--neon-purple, #a855f7);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(168, 85, 247, 0.3);
+}
+
 /* Mobil Uyumluluk */
 @media (max-width: 768px) {
     .ecosystem-section,
