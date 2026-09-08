@@ -98,7 +98,7 @@ html {
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     position: relative;
     overflow: hidden;
-    background-color: #ffffff;
+    background: var(--bg-card);
 }
 
 .feature-card:hover {
@@ -288,7 +288,7 @@ html {
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 16px;
-    color: #111111;
+    color: var(--text-main);
     position: relative;
     padding-left: 18px;
 }
@@ -402,7 +402,7 @@ html {
 .mz-text p {
     font-size: 1rem;
     line-height: 1.6;
-    color: #111111;
+    color: var(--text-main);
     margin: 0 0 12px 0;
     position: relative;
     padding-left: 18px;
@@ -531,7 +531,7 @@ html {
     border: 2px solid color-mix(in srgb, var(--neon-blue) 30%, transparent);
     border-radius: 20px;
     overflow: hidden;
-    background-color: #ffffff;
+    background: var(--bg-card);
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     display: flex;
     flex-direction: column;
@@ -598,7 +598,7 @@ html {
     flex: 1;
     min-width: 280px;
     max-width: 350px;
-    background: #ffffff;
+    background: var(--bg-card);
     border-radius: 12px;
     border: 3px solid var(--section-color);
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
@@ -684,7 +684,7 @@ html {
     flex: 1;
     min-width: 280px;
     max-width: 350px;
-    background: #ffffff;
+    background: var(--bg-card);
     border-radius: 12px;
     border: 3px solid var(--section-color);
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
@@ -709,7 +709,7 @@ html {
 }
 
 .project-card {
-    background: #ffffff;
+    background: var(--bg-card);
     border: 3px solid var(--project-color);
     border-radius: 12px;
     padding: 24px;
@@ -748,7 +748,7 @@ html {
 .project-card p {
     font-size: 0.95rem;
     line-height: 1.5;
-    color: #111111;
+    color: var(--text-main);
     margin: 0;
     padding-left: 0 !important;
 }
@@ -770,7 +770,7 @@ html {
 }
 
 .step-card {
-    background: #ffffff;
+    background: var(--bg-card);
     border-radius: 12px;
     padding: 32px 24px 24px 24px;
     border: 2px solid var(--neon-purple, #a855f7);
@@ -813,7 +813,7 @@ html {
     align-items: center;
     justify-content: center;
     padding: 10px 24px;
-    background: #ffffff;
+    background: var(--bg-card);
     color: var(--neon-purple, #a855f7);
     border: 2px solid var(--neon-purple, #a855f7);
     border-radius: 100px;
