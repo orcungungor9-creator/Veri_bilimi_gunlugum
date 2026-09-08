@@ -98,9 +98,7 @@ html {
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     position: relative;
     overflow: hidden;
-    /* Glass efekti */
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background-color: #ffffff;
 }
 
 .feature-card:hover {
@@ -533,9 +531,7 @@ html {
     border: 2px solid color-mix(in srgb, var(--neon-blue) 30%, transparent);
     border-radius: 20px;
     overflow: hidden;
-    /* Glass efekti */
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background-color: #ffffff;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     display: flex;
     flex-direction: column;
