@@ -35,7 +35,7 @@ html {
     max-width: 1250px; /* Kartlara nefes alacak geniş alanı verir */
     z-index: 20; /* Arka plan tintinin üzerinde kalması için */
     animation: fadeInUp 0.8s ease-out;
-    margin-bottom: 15vh; /* İçeriği merkezden yukarı taşır (Transform animasyonla çakıştığı için margin kullanıyoruz) */
+    margin-top: 12vh; /* İçeriği merkezden aşağı iter */
 }
 
 /* Sadece metinleri okunaklı bir sütunda tutmak için (Daha geniş bir alan) */
